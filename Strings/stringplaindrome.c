@@ -14,7 +14,7 @@ int main(){
             break;
         }
     }
-
+    
     if(temp==1){
         printf("string is not a palindrome");
     }

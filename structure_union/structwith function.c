@@ -6,7 +6,6 @@ struct student{
     float marks[4];
    float percent;
 };
-
     int display(struct student s){
         printf("\n student details:\n");
         printf("\nRollno=%d",s.rollno);

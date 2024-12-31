@@ -6,14 +6,16 @@ int main(){
     printf("Enter string:");
     gets(str);
 
-    if((str >= 'A')||(str <= 'Z')){
+    for(int i=0;str[i]!='\0';i++){
+    if((str[i] >= 'A')&&(str[i] <= 'Z')){
         u_case++;
     }
-    else if((str>= 'a')||(str<='z')){
+    else if((str[i]>='a')&&(str[i]<='z')){
         l_case++;
     }
     else{
         digit++;
+    }
     }
     
     printf("\n Lower case=%d",l_case);
